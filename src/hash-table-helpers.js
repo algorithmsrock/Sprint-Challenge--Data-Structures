@@ -1,3 +1,4 @@
+/* eslint-disable */
 // A special array class that can only store the number of items specified by the `limit` argument
 class LimitedArray {
   constructor(limit) {
@@ -47,7 +48,7 @@ const getIndexBelowMax = (str, max) => {
     hash = Math.abs(hash);
   }
   return hash % max;
-};
+};     
 
 module.exports = {
   LimitedArray,
